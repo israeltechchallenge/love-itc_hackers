@@ -1,4 +1,6 @@
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {BrowserRouter, Router, Route} from "react-router-dom";
+import Navbar from "./features/components/Navbar";
+import FindLove from "./features/components/FindLove";
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -7,7 +9,7 @@ function App() {
     <BrowserRouter>
       <Navbar>
         <Router>
-          <Route></Route>
+          <Route path='/findlove' element={<FindLove />} />
         </Router>
       </Navbar>
     </BrowserRouter>
