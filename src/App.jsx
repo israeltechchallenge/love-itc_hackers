@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -7,9 +7,7 @@ function App() {
     <BrowserRouter>
       <Navbar>
         <Router>
-          <Route>
-
-          </Route>
+          <Route></Route>
         </Router>
       </Navbar>
     </BrowserRouter>
