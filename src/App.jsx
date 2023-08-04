@@ -1,8 +1,18 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "./features/components/Navbar";
+import FindLove from "./features/components/FindLove";
 import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/findlove" element={<FindLove />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;
