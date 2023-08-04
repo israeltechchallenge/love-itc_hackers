@@ -1,6 +1,6 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './features/components/Navbar';
-import FindLove from './features/components/FindLove';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "./features/components/Navbar";
+import FindLove from "./features/components/FindLove";
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path='/findlove' element={ <FindLove /> } />
+        <Route path="/findlove" element={<FindLove />} />
       </Routes>
     </BrowserRouter>
   );
