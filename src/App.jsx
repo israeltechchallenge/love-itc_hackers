@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
-import AboutHeader from "./feature/AboutHeader";
-import AboutSection from "./feature/AboutSection";
+import AboutHeader from "./features/aboutPage/AboutHeader";
+import AboutSection from "./features/aboutPage/AboutSection";
 import "./App.css";
 
 function App() {
